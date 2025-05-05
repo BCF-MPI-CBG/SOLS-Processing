@@ -63,4 +63,6 @@ Then, build the docs like this (Make sure you have the plugin installed in your 
 jupyter-book build docs/
 ```
 
+If everything works, feel free to send in a pull request :)
+
 Finally, add your name (and email, if you want) to the list of authors in the package metadata (`pyproject.toml`)
