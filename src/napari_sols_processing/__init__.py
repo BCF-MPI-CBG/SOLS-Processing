@@ -2,9 +2,8 @@ try:
     from ._version import version as __version__
 except ImportError:
     __version__ = "unknown"
-from ._writer import write_multiple, write_single_image
+from ._functions import some_processing_function
 
 __all__ = (
-    "write_single_image",
-    "write_multiple",
+    "some_processing_function",
 )
