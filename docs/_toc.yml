@@ -6,3 +6,11 @@ root: intro
 
 options:
   numbered: False
+
+parts:
+- caption: Contributing
+  chapters:
+  - file: contribute
+- caption: API reference
+  chapters:
+  - file: API/api
